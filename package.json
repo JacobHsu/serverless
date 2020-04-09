@@ -1,0 +1,21 @@
+{
+  "name": "serverless.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JacobHsu/serverless.git",
+  "author": "jacobhsu <jacob.hsu.tw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "api": "./node_modules/.bin/sls offline -s stage"
+  },
+  "dependencies": {
+    "serverless": "^1.67.3",
+    "serverless-express": "^2.0.11",
+    "serverless-scriptable-plugin": "^1.0.5"
+  },
+  "devDependencies": {
+    "serverless-offline": "^4.9.4",
+    "serverless-plugin-include-dependencies": "^4.1.0",
+    "serverless-stack-output": "^0.2.3"
+  }
+}
